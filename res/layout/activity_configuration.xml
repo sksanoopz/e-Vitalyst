@@ -1,0 +1,130 @@
+<ScrollView
+           xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/scrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" >
+ 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e8e8e7"
+        android:orientation="vertical" >
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:background="#13b586"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true">
+            
+            <ImageView android:layout_width="40dp"
+            android:layout_height="40dp"
+          
+            android:layout_marginLeft="10dp"/>
+        
+        
+            <TextView 
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Configuration Settings"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="25dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            
+            android:layout_gravity="center_horizontal|center_vertical"/>
+    </LinearLayout>
+    
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/greybackground"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            
+
+            <ImageView
+                android:layout_width="111dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="0.03"
+                android:src="@drawable/adempiere" />
+
+            <EditText
+                android:id="@+id/domain"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp"
+                android:background="#f3f3f3"
+                android:ems="10"
+                android:hint="IP Address"
+                android:paddingLeft="5dp">
+                   <requestFocus />
+                   </EditText>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:layout_weight="0.12"
+                android:gravity="right"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/port"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:background="#f3f3f3"
+                    android:ems="10"
+                    android:hint="Port"
+                    android:paddingLeft="5dp" >
+
+                 
+                </EditText>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="190dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:background="#13b586"
+                android:text="submit"
+                android:textColor="#fff"
+                android:textSize="13dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.12"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+</LinearLayout>
+        
+    
+ 
+    </ScrollView>

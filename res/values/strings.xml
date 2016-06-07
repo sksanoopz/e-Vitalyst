@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">e-Vitalyst</string>
+    <string name="action_settings">Configuration</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_web_page">WebPage</string>
+    <string name="title_activity_configuration">ConfigurationActivity</string>
+    <string name="title_activity_oops">OopsActivity</string>
+
+</resources>
